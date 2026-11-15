@@ -1,0 +1,51 @@
+id,category,english,bangla
+P01,question,What is the capital of Bangladesh?,বাংলাদেশের রাজধানী কী?
+P02,question,Who wrote the national anthem of Bangladesh?,বাংলাদেশের জাতীয় সংগীত কে লিখেছেন?
+P03,question,How many days are there in a leap year?,একটি অধিবর্ষে কয়টি দিন থাকে?
+P04,question,Which is the longest river in the world?,বিশ্বের দীর্ঘতম নদী কোনটি?
+P05,question,What is the boiling point of water in Celsius?,সেলসিয়াস স্কেলে পানির স্ফুটনাঙ্ক কত?
+P06,question,Which planet is known as the Red Planet?,কোন গ্রহটি লাল গ্রহ নামে পরিচিত?
+P07,question,How many continents are there?,পৃথিবীতে কয়টি মহাদেশ আছে?
+P08,question,Who painted the Mona Lisa?,মোনালিসা কে এঁকেছেন?
+P09,question,What is the largest mangrove forest in the world?,বিশ্বের বৃহত্তম ম্যানগ্রোভ বন কোনটি?
+P10,question,In which year did Bangladesh become independent?,বাংলাদেশ কত সালে স্বাধীন হয়েছে?
+P11,instruction,Write a short greeting for a new colleague.,একজন নতুন সহকর্মীর জন্য একটি ছোট শুভেচ্ছা বার্তা লেখো।
+P12,instruction,List three fruits that grow in summer.,গ্রীষ্মকালে ফলে এমন তিনটি ফলের নাম লেখো।
+P13,instruction,"Translate ""Good morning"" into French.","""Good morning"" কথাটি ফরাসি ভাষায় অনুবাদ করো।"
+P14,instruction,Give me a tip for studying better.,ভালোভাবে পড়াশোনা করার জন্য একটি পরামর্শ দাও।
+P15,instruction,Write a two-line poem about rain.,বৃষ্টি নিয়ে দুই লাইনের একটি কবিতা লেখো।
+P16,instruction,Name two ways to save electricity at home.,বাড়িতে বিদ্যুৎ সাশ্রয়ের দুটি উপায় বলো।
+P17,instruction,Suggest a name for a small tea shop.,একটি ছোট চায়ের দোকানের জন্য একটি নাম প্রস্তাব করো।
+P18,instruction,"Write a sentence using the word ""journey"".","""যাত্রা"" শব্দটি ব্যবহার করে একটি বাক্য লেখো।"
+P19,explanation,Explain what photosynthesis is in one sentence.,সালোকসংশ্লেষণ কী তা এক বাক্যে ব্যাখ্যা করো।
+P20,explanation,Briefly explain why the sky is blue.,আকাশ কেন নীল তা সংক্ষেপে ব্যাখ্যা করো।
+P21,explanation,What is inflation? Explain simply.,মুদ্রাস্ফীতি কী? সহজ ভাষায় ব্যাখ্যা করো।
+P22,explanation,Explain what a database is.,ডেটাবেস কী তা ব্যাখ্যা করো।
+P23,explanation,Why do we need to sleep? Answer briefly.,আমাদের ঘুমানো দরকার কেন? সংক্ষেপে উত্তর দাও।
+P24,explanation,Describe how rain is formed.,বৃষ্টি কীভাবে তৈরি হয় তা বর্ণনা করো।
+P25,explanation,What does an operating system do?,একটি অপারেটিং সিস্টেম কী কাজ করে?
+P26,explanation,Explain the difference between weather and climate.,আবহাওয়া ও জলবায়ুর মধ্যে পার্থক্য ব্যাখ্যা করো।
+P27,arithmetic,What is 125 plus 378?,125 এর সাথে 378 যোগ করলে কত হয়?
+P28,arithmetic,What is 48 multiplied by 12?,48 কে 12 দিয়ে গুণ করলে কত হয়?
+P29,arithmetic,A shop sells a pen for 15 taka. How much do 9 pens cost?,একটি দোকানে একটি কলম 15 টাকায় বিক্রি হয়। 9টি কলমের দাম কত?
+P30,arithmetic,What is 20 percent of 250?,250 এর 20 শতাংশ কত?
+P31,arithmetic,Subtract 289 from 500.,500 থেকে 289 বিয়োগ করো।
+P32,arithmetic,What is the square root of 144?,144 এর বর্গমূল কত?
+P33,arithmetic,"If a train travels 60 kilometres in one hour, how far does it go in 3 hours?",একটি ট্রেন এক ঘণ্টায় 60 কিলোমিটার গেলে 3 ঘণ্টায় কত দূর যাবে?
+P34,arithmetic,Divide 96 by 8.,96 কে 8 দিয়ে ভাগ করো।
+P35,summarise,"Summarise in one short sentence: ""The city council decided to build a new park near the river so that families have a safe place to play on weekends.""","এক ছোট বাক্যে সারসংক্ষেপ করো: ""নগর পরিষদ নদীর কাছে একটি নতুন পার্ক তৈরির সিদ্ধান্ত নিয়েছে, যাতে সপ্তাহান্তে পরিবারগুলো খেলাধুলার জন্য একটি নিরাপদ জায়গা পায়।"""
+P36,summarise,"Summarise in one short sentence: ""Regular exercise improves heart health, helps control weight, and also lifts a person's mood.""","এক ছোট বাক্যে সারসংক্ষেপ করো: ""নিয়মিত ব্যায়াম হৃদ্‌যন্ত্রের স্বাস্থ্য উন্নত করে, ওজন নিয়ন্ত্রণে সাহায্য করে এবং মানুষের মনও ভালো রাখে।"""
+P37,summarise,"Summarise in one short sentence: ""The library will stay closed on Friday for maintenance and will open again on Saturday at nine in the morning.""","এক ছোট বাক্যে সারসংক্ষেপ করো: ""রক্ষণাবেক্ষণের জন্য গ্রন্থাগারটি শুক্রবার বন্ধ থাকবে এবং শনিবার সকাল নয়টায় আবার খুলবে।"""
+P38,summarise,"Summarise in one short sentence: ""Farmers in the northern region expect a good harvest this year because the rains came on time.""","এক ছোট বাক্যে সারসংক্ষেপ করো: ""এ বছর বর্ষা সময়মতো এসেছে বলে উত্তরাঞ্চলের কৃষকেরা ভালো ফসলের আশা করছেন।"""
+P39,summarise,"Summarise in one short sentence: ""The company introduced a new mobile app that lets customers pay bills, check balances, and contact support in one place.""","এক ছোট বাক্যে সারসংক্ষেপ করো: ""কোম্পানিটি একটি নতুন মোবাইল অ্যাপ চালু করেছে, যেখানে গ্রাহকেরা একই জায়গা থেকে বিল পরিশোধ, ব্যালেন্স যাচাই এবং সহায়তা কেন্দ্রের সঙ্গে যোগাযোগ করতে পারেন।"""
+P40,summarise,"Summarise in one short sentence: ""Because of heavy traffic, the bus arrived forty minutes late, and many passengers missed their connecting trains.""","এক ছোট বাক্যে সারসংক্ষেপ করো: ""তীব্র যানজটের কারণে বাসটি চল্লিশ মিনিট দেরিতে পৌঁছেছে এবং অনেক যাত্রীর সংযোগকারী ট্রেন ছুটে গেছে।"""
+P41,summarise,"Summarise in one short sentence: ""The teacher praised the students for finishing the project early and encouraged them to help their classmates.""","এক ছোট বাক্যে সারসংক্ষেপ করো: ""প্রকল্পটি আগেভাগে শেষ করার জন্য শিক্ষক শিক্ষার্থীদের প্রশংসা করেছেন এবং সহপাঠীদের সাহায্য করতে উৎসাহ দিয়েছেন।"""
+P42,summarise,"Summarise in one short sentence: ""Scientists found that drinking enough water during the day helps people concentrate better at work.""","এক ছোট বাক্যে সারসংক্ষেপ করো: ""বিজ্ঞানীরা দেখেছেন, দিনের বেলা পর্যাপ্ত পানি পান করলে কাজের সময় মানুষ ভালোভাবে মনোযোগ দিতে পারে।"""
+P43,long,"I am planning a three-day trip to Cox's Bazar with my family. We want to enjoy the beach, try local seafood, and visit a few quiet places away from the crowd. Can you suggest a simple plan for each day?","আমি পরিবারের সাথে কক্সবাজারে তিন দিনের একটি ভ্রমণের পরিকল্পনা করছি। আমরা সমুদ্রসৈকত উপভোগ করতে, স্থানীয় সামুদ্রিক খাবার চেখে দেখতে এবং ভিড় থেকে দূরে কয়েকটি শান্ত জায়গা ঘুরে দেখতে চাই। প্রতিদিনের জন্য একটি সহজ পরিকল্পনা কি তুমি প্রস্তাব করতে পারবে?"
+P44,long,"My laptop has become very slow in the last few weeks. It takes several minutes to start and the fan runs loudly all the time. I have not installed any new programs recently. What could be the reasons, and what should I check first?","গত কয়েক সপ্তাহে আমার ল্যাপটপ খুব ধীর হয়ে গেছে। চালু হতে কয়েক মিনিট লাগে এবং ফ্যান সারাক্ষণ জোরে চলে। আমি সম্প্রতি কোনো নতুন প্রোগ্রাম ইনস্টল করিনি। এর সম্ভাব্য কারণ কী হতে পারে, আর আগে কী পরীক্ষা করা উচিত?"
+P45,long,"A small bakery wants to attract more customers. It sells fresh bread, cakes, and biscuits every morning. The owner has a very small budget for advertising. Suggest three low-cost ideas.","একটি ছোট বেকারি আরও গ্রাহক আকৃষ্ট করতে চায়। তারা প্রতিদিন সকালে তাজা পাউরুটি, কেক ও বিস্কুট বিক্রি করে। মালিকের বিজ্ঞাপনের বাজেট খুবই কম। কম খরচের তিনটি ধারণা দাও।"
+P46,long,"Our class is organising a farewell party for our teacher who is retiring next month. We need to decide on a venue, a menu, and a small gift. Please write a short checklist that we can follow.","আমাদের শ্রেণি আগামী মাসে অবসরে যাচ্ছেন এমন একজন শিক্ষকের জন্য বিদায় অনুষ্ঠানের আয়োজন করছে। আমাদের একটি স্থান, একটি খাবারের তালিকা এবং একটি ছোট উপহার ঠিক করতে হবে। অনুগ্রহ করে একটি সংক্ষিপ্ত চেকলিস্ট লেখো যা আমরা অনুসরণ করতে পারি।"
+P47,long,"Rainwater harvesting collects and stores rain for later use. It can reduce the pressure on groundwater, especially in cities where the water table is falling. Explain how a simple household system works and what its main benefits are.","বৃষ্টির পানি সংরক্ষণ হলো বৃষ্টির পানি সংগ্রহ করে পরে ব্যবহারের জন্য জমিয়ে রাখা। এটি ভূগর্ভস্থ পানির ওপর চাপ কমাতে পারে, বিশেষ করে যেসব শহরে পানির স্তর নেমে যাচ্ছে। একটি সাধারণ গৃহস্থালি ব্যবস্থা কীভাবে কাজ করে এবং এর প্রধান সুবিধাগুলো কী, তা ব্যাখ্যা করো।"
+P48,long,"I started learning to cook this month. So far I can make rice, simple lentil soup, and fried eggs. I want to learn five more easy dishes that are healthy. Which dishes should I learn next, and why?","আমি এই মাসে রান্না শেখা শুরু করেছি। এখন পর্যন্ত আমি ভাত, সহজ ডাল এবং ডিমভাজি রাঁধতে পারি। আমি আরও পাঁচটি সহজ ও স্বাস্থ্যকর পদ শিখতে চাই। এরপর কোন পদগুলো শেখা উচিত, আর কেন?"
+P49,long,Please read this short note. The meeting scheduled for Monday has been moved to Wednesday at 3 p.m. because the manager is travelling. Everyone should send their progress reports by Tuesday evening. Write a polite reminder email based on this note.,অনুগ্রহ করে এই ছোট নোটটি পড়ো। সোমবারের নির্ধারিত সভাটি ব্যবস্থাপকের ভ্রমণের কারণে বুধবার বিকেল 3টায় সরানো হয়েছে। সবাইকে মঙ্গলবার সন্ধ্যার মধ্যে নিজেদের অগ্রগতির প্রতিবেদন পাঠাতে হবে। এই নোটের ভিত্তিতে একটি ভদ্র অনুস্মারক ইমেল লেখো।
+P50,long,"Many students feel nervous before exams. Some of them cannot sleep well, and others forget what they studied. Give a few practical tips to stay calm and prepare better.","অনেক শিক্ষার্থী পরীক্ষার আগে নার্ভাস বোধ করে। তাদের কেউ কেউ ভালোভাবে ঘুমাতে পারে না, আবার কেউ কেউ যা পড়েছে তা ভুলে যায়। শান্ত থাকা ও ভালো প্রস্তুতি নেওয়ার জন্য কয়েকটি বাস্তব পরামর্শ দাও।"

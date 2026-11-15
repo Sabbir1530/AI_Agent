@@ -1,0 +1,119 @@
+[
+  {
+    "id": "Q01",
+    "kind": "simple",
+    "question": "How many customers are there?",
+    "expected": 30
+  },
+  {
+    "id": "Q02",
+    "kind": "simple",
+    "question": "How many products are there?",
+    "expected": 10
+  },
+  {
+    "id": "Q03",
+    "kind": "simple",
+    "question": "How many orders are there?",
+    "expected": 180
+  },
+  {
+    "id": "Q04",
+    "kind": "simple",
+    "question": "How many completed orders are there?",
+    "expected": 111
+  },
+  {
+    "id": "Q05",
+    "kind": "join",
+    "question": "What is the total revenue from completed orders?",
+    "expected": 119774.5
+  },
+  {
+    "id": "Q06",
+    "kind": "calculation",
+    "question": "What is the average order value for completed orders?",
+    "expected": 1079.05
+  },
+  {
+    "id": "Q07",
+    "kind": "grouping",
+    "question": "Which city has the most customers?",
+    "expected": "Rajshahi"
+  },
+  {
+    "id": "Q08",
+    "kind": "grouping",
+    "question": "Which product category earned the most revenue from completed orders?",
+    "expected": "Electronics"
+  },
+  {
+    "id": "Q09",
+    "kind": "join",
+    "question": "What is the total revenue for customer 12 (completed orders)?",
+    "expected": 1596.0
+  },
+  {
+    "id": "Q10",
+    "kind": "simple",
+    "question": "How many unique customers placed completed orders?",
+    "expected": 30
+  },
+  {
+    "id": "Q11",
+    "kind": "simple",
+    "question": "What is the most expensive product name?",
+    "expected": "Laptop"
+  },
+  {
+    "id": "Q12",
+    "kind": "join",
+    "question": "What is the total quantity sold in completed orders?",
+    "expected": 820
+  },
+  {
+    "id": "Q13",
+    "kind": "calculation",
+    "question": "What is the revenue difference between Electronics and Furniture (completed orders)?",
+    "expected": 79004.0
+  },
+  {
+    "id": "Q14",
+    "kind": "grouping",
+    "question": "Which customer placed the highest number of orders?",
+    "expected": "Customer 01"
+  },
+  {
+    "id": "Q15",
+    "kind": "calculation",
+    "question": "What percentage of all orders are completed?",
+    "expected": 61.67
+  },
+  {
+    "id": "Q16",
+    "kind": "multi",
+    "question": "What is the average order value for completed orders, and what percent above the minimum completed order value is it?",
+    "expected": [
+      1079.05,
+      30729.99
+    ]
+  },
+  {
+    "id": "Q17",
+    "kind": "multi",
+    "question": "By what percent is customer 12's revenue lower than customer 5's revenue (completed orders only)?",
+    "expected": 60.07
+  },
+  {
+    "id": "Q18",
+    "kind": "unanswerable",
+    "question": "What was the exact GDP of Bangladesh in 2025?",
+    "expected": "UNANSWERABLE"
+  },
+  {
+    "id": "Q19",
+    "kind": "unanswerable",
+    "question": "How many employees work at the company?",
+    "expected": "UNANSWERABLE"
+  }
+]

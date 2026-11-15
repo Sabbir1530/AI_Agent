@@ -1,0 +1,277 @@
+id,category,language,prompt,output,input_tokens,output_tokens,cost_usd,latency_s,done_reason,truncated,input_count_ok
+P01,question,english,What is the capital of Bangladesh?,The capital of Bangladesh is Dhaka.,30,9,0.0000099,9.5074,stop,FALSE,TRUE
+P01,question,bangla,বাংলাদেশের রাজধানী কী?,বাংলাদেশের রাজধানী হল কোরিয়া।,47,34,0.00002745,13.0421,stop,FALSE,TRUE
+P02,question,english,Who wrote the national anthem of Bangladesh?,"The national anthem of Bangladesh, ""Amar Sonar Bangla"" (My Golden Bengal), was written by Rabindranath Tagore.",31,30,0.00002265,11.9812,stop,FALSE,TRUE
+P02,question,bangla,বাংলাদেশের জাতীয় সংগীত কে লিখেছেন?,বাংলাদেশের জাতীয় সংগীত লিখেছেন নাইজার কুমার মুখোশ।,62,59,0.0000447,17.0318,stop,FALSE,TRUE
+P03,question,english,How many days are there in a leap year?,A leap year has 366 days.,33,11,0.00001155,8.0707,stop,FALSE,TRUE
+P03,question,bangla,একটি অধিবর্ষে কয়টি দিন থাকে?,একটি অধিবর্ষে 365 দিন থাকে। কিন্তু সাত বছরের অধিবর্ষে (জুলাইয়া অধিবর্ষ) 365 + 1 = 366 দিন থাকে।,53,97,0.00006615,20.9244,stop,FALSE,TRUE
+P04,question,english,Which is the longest river in the world?,"The longest river in the world is the Nile River, which flows through northeastern Africa.",32,18,0.0000156,12.4703,stop,FALSE,TRUE
+P04,question,bangla,বিশ্বের দীর্ঘতম নদী কোনটি?,"বিশ্বের দীর্ঘতম নদী হল গাজিসা নদী (Ganges), যা পাকিস্তান, ইরাক এবং ভারতের মধ্যে বিস্তারিয়ান দুর্ঘটনা থেকে প্রবেশ করে যায় এবং প্রায় 2,525 কিলোমিটার (1,563",52,160,0.0001038,27.1858,length,TRUE,TRUE
+P05,question,english,What is the boiling point of water in Celsius?,The boiling point of water in Celsius is 100 degrees.,33,15,0.00001395,10.3304,stop,FALSE,TRUE
+P05,question,bangla,সেলসিয়াস স্কেলে পানির স্ফুটনাঙ্ক কত?,পানির স্ফুটনাঙ্ক সেলসিয়াস স্কেলে 0°C অন্তর্ভুক্ত থাকে।,62,58,0.0000441,15.0474,stop,FALSE,TRUE
+P06,question,english,Which planet is known as the Red Planet?,The Red Planet is known as Mars.,32,9,0.0000102,7.5726,stop,FALSE,TRUE
+P06,question,bangla,কোন গ্রহটি লাল গ্রহ নামে পরিচিত?,লাল গ্রহ নামে পরিচিত গ্রহ হল ভুবনেশ্বর (Mercury).,56,44,0.0000348,13.7135,stop,FALSE,TRUE
+P07,question,english,How many continents are there?,"There are 7 continents: Africa, Antarctica, Asia, Australia, Europe, North America, and South America.",29,24,0.00001875,10.4714,stop,FALSE,TRUE
+P07,question,bangla,পৃথিবীতে কয়টি মহাদেশ আছে?,"পৃথিবীতে কয়েকটি মহাদেশ আছে:
+
+1. ভূমিমহাদেশ
+2. পরমান্বয়ের মহাদেশ
+3. ক্রমবর্ধমান মহাদেশ
+
+এই মহাদেশগুলি পৃথিবীর সাধারণ বিভাগ হিসেবে ব্যবহৃত হয় এবং এগুল",52,160,0.0001038,24.5819,length,TRUE,TRUE
+P08,question,english,Who painted the Mona Lisa?,The Mona Lisa was painted by Leonardo da Vinci.,29,11,0.00001095,8.383,stop,FALSE,TRUE
+P08,question,bangla,মোনালিসা কে এঁকেছেন?,মোনালিসা এঁকেছেন জেমস ব্যানা।,45,32,0.00002595,12.8855,stop,FALSE,TRUE
+P09,question,english,What is the largest mangrove forest in the world?,"The largest mangrove forest in the world is the Dipterocarp mangrove forest in the Peuribabo District, Morotai Island, Indonesia. However, it's important to note that the exact size can vary based on different sources and methodologies. Another significant area is the Sundarbans in Bangladesh and India, which is the largest mangrove forest in terms of area.",34,78,0.0000519,15.6402,stop,FALSE,TRUE
+P09,question,bangla,বিশ্বের বৃহত্তম ম্যানগ্রোভ বন কোনটি?,বিশ্বের বৃহত্তম ম্যানগ্রোভ বন হল ক্যালিফোর্নিয়ার ক্যালিফোর্নিয়া বন।,62,76,0.0000549,16.9338,stop,FALSE,TRUE
+P10,question,english,In which year did Bangladesh become independent?,Bangladesh became independent in 1971.,31,12,0.00001185,9.9107,stop,FALSE,TRUE
+P10,question,bangla,বাংলাদেশ কত সালে স্বাধীন হয়েছে?,বাংলাদেশ স্বাধীন হয়েছে ১৯৭৩ সালে।,57,41,0.00003315,12.2616,stop,FALSE,TRUE
+P11,instruction,english,Write a short greeting for a new colleague.,"Hello [Colleague's Name], it's great to have you on board! I'm looking forward to working with you.",32,26,0.0000204,9.8361,stop,FALSE,TRUE
+P11,instruction,bangla,একজন নতুন সহকর্মীর জন্য একটি ছোট শুভেচ্ছা বার্তা লেখো।,"নতুন সহকারীর জন্য ছোট শুভেচ্ছা বার্তা:
+
+প্রিয়omat নতুন সহকারীর নামের জন্য আপনার সাহায্য করতে প্রাথমিক দিনটি শুভ হবে। আমরা আপনার সাথে যৌথ হওয়ার জন্য আপনার",82,160,0.0001083,26.5251,length,TRUE,TRUE
+P12,instruction,english,List three fruits that grow in summer.,"Three fruits that grow in summer are:
+
+1. Watermelon
+2. Cantaloupe
+3. Honeydew Melon",31,28,0.00002145,10.819,stop,FALSE,TRUE
+P12,instruction,bangla,গ্রীষ্মকালে ফলে এমন তিনটি ফলের নাম লেখো।,"গ্রীষ্মকালে ফলের তিনটি নাম:
+
+1. কুচি (কুচি)
+2. কুচিরাজ (কুচিরাজ)
+3. কুচিরাজী (কুচিরাজী)",65,90,0.00006375,18.4036,stop,FALSE,TRUE
+P13,instruction,english,"Translate ""Good morning"" into French.","Good morning in French is ""Bonjour"".",31,9,0.00001005,7.9908,stop,FALSE,TRUE
+P13,instruction,bangla,"""Good morning"" কথাটি ফরাসি ভাষায় অনুবাদ করো।","""Good morning"" ফরাসি ভাষায় ""Bonjour"" এর অনুবাদ হয়.",61,39,0.00003255,11.8552,stop,FALSE,TRUE
+P14,instruction,english,Give me a tip for studying better.,Make a study schedule to organize your time effectively and prioritize your studies.,31,15,0.00001365,9.5516,stop,FALSE,TRUE
+P14,instruction,bangla,ভালোভাবে পড়াশোনা করার জন্য একটি পরামর্শ দাও।,"ভালোভাবে পড়াশোনা করার জন্য পরামর্শ:
+
+1. পড়াশোনা পর্যায়ে বিভকন রাখুন।
+2. পড়াশোনা পর্যায়ে একটি মন্টেজ করুন যা তোমার সামনে পড়াশোনা পর্যায়ের সাথ",71,160,0.00010665,24.8302,length,TRUE,TRUE
+P15,instruction,english,Write a two-line poem about rain.,"Raindrops kiss the earth,
+A melody of soft beat.",31,13,0.00001245,8.2913,stop,FALSE,TRUE
+P15,instruction,bangla,বৃষ্টি নিয়ে দুই লাইনের একটি কবিতা লেখো।,"বৃষ্টির পানে দুঃখের মুখ,
+তার প্রতি আমি ভাবি সুখের মুখ।
+
+বৃষ্টির পানে দুঃখের মুখ,
+তার প্রতি আমি ভাবি সুখের মুখ।",67,120,0.00008205,21.0469,stop,FALSE,TRUE
+P16,instruction,english,Name two ways to save electricity at home.,"1. Use energy-efficient light bulbs and appliances.
+2. Turn off lights and unplug electronics when not in use.",32,25,0.0000198,10.5817,stop,FALSE,TRUE
+P16,instruction,bangla,বাড়িতে বিদ্যুৎ সাশ্রয়ের দুটি উপায় বলো।,"বাড়িতে বিদ্যুৎ সাশ্রয়ের দুটি উপায় হল:
+
+1. বিদ্যুৎ সাশ্রয়ের ব্যবস্থা: বিদ্যুৎ সাশ্রয়ের ব্যবস্থা করা হলে বিদ্যুৎ সাশ্রয়ের সমস্যা সমাধান করা যায়।",70,160,0.0001065,24.5101,length,TRUE,TRUE
+P17,instruction,english,Suggest a name for a small tea shop.,Tea Leaf Oasis,33,5,0.00000795,7.6902,stop,FALSE,TRUE
+P17,instruction,bangla,একটি ছোট চায়ের দোকানের জন্য একটি নাম প্রস্তাব করো।,চায়ের প্রেমী (Premchai),78,20,0.0000237,11.4878,stop,FALSE,TRUE
+P18,instruction,english,"Write a sentence using the word ""journey"".",Her journey across the country taught her resilience and independence.,33,12,0.00001215,9.0538,stop,FALSE,TRUE
+P18,instruction,bangla,"""যাত্রা"" শব্দটি ব্যবহার করে একটি বাক্য লেখো।",যাত্রা শব্দটি ব্যবহার করে যাত্রার সময় এবং স্থান বলা যায়।,68,62,0.0000474,16.1939,stop,FALSE,TRUE
+P19,explanation,english,Explain what photosynthesis is in one sentence.,"Photosynthesis is the process by which plants convert light energy into chemical energy stored in glucose, using carbon dioxide and water.",33,25,0.00001995,10.5072,stop,FALSE,TRUE
+P19,explanation,bangla,সালোকসংশ্লেষণ কী তা এক বাক্যে ব্যাখ্যা করো।,সালোকসংশ্লেষণ হলো বাক্যে বা বাক্যালাব্তে বিভিন্ন সামান্য বাক্য বা বাক্যালাব্তের সামঞ্জস্য বা সামান্যতা বা সামান্য বিষয়ের বিবরণ সংযুক্ত করে একটি সুষম ব,70,160,0.0001065,23.9972,length,TRUE,TRUE
+P20,explanation,english,Briefly explain why the sky is blue.,"The sky appears blue because of the dominant scattering of sunlight by air molecules. Blue light has a shorter wavelength and is scattered more easily by air molecules (such as nitrogen and oxygen) in our atmosphere. This process, known as Rayleigh scattering, causes blue light to be distributed more widely in all directions, including towards observers on the ground. This is why the sky looks blue during the day.",32,80,0.0000528,16.3862,stop,FALSE,TRUE
+P20,explanation,bangla,আকাশ কেন নীল তা সংক্ষেপে ব্যাখ্যা করো।,"আকাশ নীল হওয়া সংক্ষেপে ব্যাখ্যা করে: সূর্যের উজ্জ্বলতা আকাশে প্রতিবিম্বিত হলে, এটা নীল রঙের উপাদান সংগঠিত হয় যার কারণে আকাশ নীল হয়.",64,145,0.0000966,22.3869,stop,FALSE,TRUE
+P21,explanation,english,What is inflation? Explain simply.,"Inflation is a general increase in prices and fall in the purchasing value of money. When inflation is high, each currency unit buys fewer goods & services. For example, if inflation is 5%, a dollar won't buy as much next year as it does today.",30,55,0.0000375,12.6668,stop,FALSE,TRUE
+P21,explanation,bangla,মুদ্রাস্ফীতি কী? সহজ ভাষায় ব্যাখ্যা করো।,"মুদ্রাস্ফীতি হলো বাণিজ্যিক বিতরণের মুদ্রা বাড়ার ফলে বৃদ্ধি হওয়া বা কমে যাওয়া দায়ী। সাধারণভাবে, এটি বাণিজ্যিক বিতরণের মুদ্রা বাড়ার ফলে ব্যবসায়",69,160,0.00010635,23.9691,length,TRUE,TRUE
+P22,explanation,english,Explain what a database is.,"A database is an organized collection of data that is structured to allow efficient retrieval of information. It serves as a repository for data that can be accessed, managed, and updated using a database management system (DBMS). Databases enable the storage, retrieval, and modification of data in a structured manner, facilitating data consistency, integrity, and security. They are used to store various types of information, including financial records, customer data, and scientific research results.",30,92,0.0000597,17.7512,stop,FALSE,TRUE
+P22,explanation,bangla,ডেটাবেস কী তা ব্যাখ্যা করো।,ডেটাবেস হল একটি সংস্করণযুক্ত ডেটা সেভারেটিং স্ট্যান্ডার্ড যা ডেটা প্রদান এবং ডেটা প্রদানের সুবিধা সহ ডেটা সংগ্রহের জন্য ব্যবস্থিত করে। এটি বিভিন্ন প্রকারের,52,160,0.0001038,30.5181,length,TRUE,TRUE
+P23,explanation,english,Why do we need to sleep? Answer briefly.,"Sleep is essential for physical restoration, memory consolidation, and cognitive function. It helps in processing daily experiences, strengthening neural connections, and maintaining overall health and well-being. Lack of sleep can lead to various health issues and reduced performance in daily activities.",33,50,0.00003495,16.6486,stop,FALSE,TRUE
+P23,explanation,bangla,আমাদের ঘুমানো দরকার কেন? সংক্ষেপে উত্তর দাও।,"আমাদের ঘুমানো দরকার না, কারণ ঘুম আমাদের কিছু করার জন্য প্রয়োজনীয় নয়। আমরা ঘুম থেকে উঠে যাওয়ার জন্য আরও প্রয়োজনীয়।",70,136,0.0000921,25.692,stop,FALSE,TRUE
+P24,explanation,english,Describe how rain is formed.,"Rain is formed through the process of condensation within the atmosphere. Here's a concise breakdown of the process:
+
+1. **Evaporation**: Water from oceans, lakes, and other bodies of water heats up by the sun and turns into vapor or steam.
+
+2. **Condensation**: As the water vapor rises higher into the atmosphere, it cools down and changes back into liquid droplets, forming clouds. This process is called condensation.
+
+3. **Precipitation**: When these droplets combine and grow larger, they become too heavy for the air to hold, and they fall as precipitation, which can be rain, snow, sleet, or hail, depending on the temperature and conditions.
+
+This cycle is part of the water cycle, which is crucial for sustaining life on Earth.",29,160,0.00010035,25.2393,stop,FALSE,TRUE
+P24,explanation,bangla,বৃষ্টি কীভাবে তৈরি হয় তা বর্ণনা করো।,বৃষ্টি তৈরি হয় একটি প্রক্রিয়া যেখানে জল বাতাসের মধ্যে একটি বৃত্তান্ত হয়ে ওঠে। এটি নিম্নতম তাপমাত্রায় হয়ে ওঠে এবং বেশি তাপমাত্রায় প্রকাশ করে। জ,65,160,0.00010575,25.8023,length,TRUE,TRUE
+P25,explanation,english,What does an operating system do?,"An operating system (OS) manages computer hardware and software resources, providing common services for computer programs. Its primary functions include:
+
+1. **Resource Management**: Allocating CPU time, memory, and I/O devices efficiently.
+2. **Device Management**: Controlling input/output devices and managing data transfer.
+3. **Security**: Implementing security policies to protect system resources.
+4. **User Interface**: Providing a user interface for interacting with the system.
+5. **Network Management**: Managing network connections and protocols.
+6. **Power Management**: Controlling power usage and system shutdown.
+7. **Process Management**: Managing processes and threads.
+8. **Storage Management**: Managing file systems and storage devices.
+9. **Security**: Implementing security policies to protect system resources.
+10. **Maintenance**:",30,160,0.0001005,24.324,length,TRUE,TRUE
+P25,explanation,bangla,একটি অপারেটিং সিস্টেম কী কাজ করে?,"একটি অপারেটিং সিস্টেম (Operating System, OS) কাজ করে এমন কিছু করে:
+
+1. মেমোরিয়ার স্ট্যাম্পিং করে এবং মেমোরিয়ার স্ট্যাম্পিং সম্পর্কে সার্ভার চালায়
+2. কম্পাইলার সম্পর্কে স",57,160,0.00010455,26.4709,length,TRUE,TRUE
+P26,explanation,english,Explain the difference between weather and climate.,"Weather refers to the short-term atmospheric conditions at a specific location, including temperature, humidity, wind, and precipitation over a relatively short period, such as a few hours to a week.
+
+Climate, on the other hand, describes the long-term average weather patterns of a region, typically spanning over many years. It encompasses statistics like average temperature, precipitation, and wind patterns, and can be characterized by terms like dry or wet, cold or warm, and stormy or calm.",32,96,0.0000624,18.0322,stop,FALSE,TRUE
+P26,explanation,bangla,আবহাওয়া ও জলবায়ুর মধ্যে পার্থক্য ব্যাখ্যা করো।,"আবহাওয়া ও জলবায়ুর মধ্যে পার্থক্য হল:
+
+1. আবহাওয়া: এটি একটি পরিবর্তনশীল পরিসংখ্যান। আবহাওয়া প্রকোপ এবং প্রকোপের পরিবর্তন হতে পারে।
+
+2. জলবায়ু: এটি",75,160,0.00010725,24.8633,length,TRUE,TRUE
+P27,arithmetic,english,What is 125 plus 378?,125 plus 378 equals 503.,35,15,0.00001425,9.2189,stop,FALSE,TRUE
+P27,arithmetic,bangla,125 এর সাথে 378 যোগ করলে কত হয়?,125 + 378 = 503,57,14,0.00001695,24.4972,stop,FALSE,TRUE
+P28,arithmetic,english,What is 48 multiplied by 12?,48 multiplied by 12 equals 576.,34,14,0.0000135,22.3728,stop,FALSE,TRUE
+P28,arithmetic,bangla,48 কে 12 দিয়ে গুণ করলে কত হয়?,48 কে 12 দিয়ে গুণ করলে 4 হয়।,57,34,0.00002895,15.2209,stop,FALSE,TRUE
+P29,arithmetic,english,A shop sells a pen for 15 taka. How much do 9 pens cost?,"To find the cost of 9 pens, you multiply the cost of one pen by 9.
+
+Cost of 9 pens = 15 taka/pen * 9 pens = 135 taka.
+
+So, 9 pens cost 135 taka.",43,59,0.00004185,18.5716,stop,FALSE,TRUE
+P29,arithmetic,bangla,একটি দোকানে একটি কলম 15 টাকায় বিক্রি হয়। 9টি কলমের দাম কত?,9 টি কলমের দাম হল 135 টাকা. (15 টাকা x 9 = 135 টাকা),86,50,0.0000429,18.1687,stop,FALSE,TRUE
+P30,arithmetic,english,What is 20 percent of 250?,"To find 20 percent of 250, you can calculate it as follows:
+
+\( 20\% \times 250 = 0.20 \times 250 = 50 \)
+
+So, 20 percent of 250 is 50.",35,66,0.00004485,18.8633,stop,FALSE,TRUE
+P30,arithmetic,bangla,250 এর 20 শতাংশ কত?,"20% হল 250 * 0.20 = 50
+
+250 এর 20% হল 50.",42,39,0.0000297,19.7211,stop,FALSE,TRUE
+P31,arithmetic,english,Subtract 289 from 500.,The result of subtracting 289 from 500 is 211.,35,21,0.00001785,29.8354,stop,FALSE,TRUE
+P31,arithmetic,bangla,500 থেকে 289 বিয়োগ করো।,500 - 289 = 211,50,14,0.0000159,12.6981,stop,FALSE,TRUE
+P32,arithmetic,english,What is the square root of 144?,The square root of 144 is 12.,34,14,0.0000135,15.9768,stop,FALSE,TRUE
+P32,arithmetic,bangla,144 এর বর্গমূল কত?,144 এর বর্গমূল 12 এখন।,42,24,0.0000207,16.5107,stop,FALSE,TRUE
+P33,arithmetic,english,"If a train travels 60 kilometres in one hour, how far does it go in 3 hours?","If a train travels 60 kilometers in one hour, in 3 hours it would travel 180 kilometers.",45,26,0.00002235,13.8542,stop,FALSE,TRUE
+P33,arithmetic,bangla,একটি ট্রেন এক ঘণ্টায় 60 কিলোমিটার গেলে 3 ঘণ্টায় কত দূর যাবে?,"একটি ট্রেন 1 ঘণ্টায় 60 কিলোমিটার যায়, তাহলে 3 ঘণ্টায় তার গতি হবে 60 * 3 = 180 কিলোমিটার.",89,95,0.00007035,31.7027,stop,FALSE,TRUE
+P34,arithmetic,english,Divide 96 by 8.,"12
+
+96 ÷ 8 = 12",32,14,0.0000132,15.8032,stop,FALSE,TRUE
+P34,arithmetic,bangla,96 কে 8 দিয়ে ভাগ করো।,96 ÷ 8 = 12,47,11,0.00001365,17.3868,stop,FALSE,TRUE
+P35,summarise,english,"Summarise in one short sentence: ""The city council decided to build a new park near the river so that families have a safe place to play on weekends.""",The city council approved a new park by the river for family-friendly weekend activities.,56,17,0.0000186,21.1121,stop,FALSE,TRUE
+P35,summarise,bangla,"এক ছোট বাক্যে সারসংক্ষেপ করো: ""নগর পরিষদ নদীর কাছে একটি নতুন পার্ক তৈরির সিদ্ধান্ত নিয়েছে, যাতে সপ্তাহান্তে পরিবারগুলো খেলাধুলার জন্য একটি নিরাপদ জায়গা পায়।""","নগর পরিষদ নদীর কাছে একটি নতুন পার্ক তৈরির সিদ্ধান্ত নিয়েছে, যা পরিবারগুলো সপ্তাহান্তে খেলাধুলার জন্য নিরাপদ জায়গা হবে।",194,129,0.0001065,32.8295,stop,FALSE,TRUE
+P36,summarise,english,"Summarise in one short sentence: ""Regular exercise improves heart health, helps control weight, and also lifts a person's mood.""","Regular exercise benefits heart health, aids weight management, and boosts mood.",50,15,0.0000165,10.2949,stop,FALSE,TRUE
+P36,summarise,bangla,"এক ছোট বাক্যে সারসংক্ষেপ করো: ""নিয়মিত ব্যায়াম হৃদ্‌যন্ত্রের স্বাস্থ্য উন্নত করে, ওজন নিয়ন্ত্রণে সাহায্য করে এবং মানুষের মনও ভালো রাখে।""","ব্যায়াম হৃদয়ন্ত্রের স্বাস্থ্য উন্নতি করে, ওজন নিয়ন্ত্রণে সাহায্য করে এবং মন ভালো রাখে।",170,96,0.0000831,27.63,stop,FALSE,TRUE
+P37,summarise,english,"Summarise in one short sentence: ""The library will stay closed on Friday for maintenance and will open again on Saturday at nine in the morning.""",The library is closed on Friday for maintenance and will reopen on Saturday at 9 AM.,53,19,0.00001935,13.1914,stop,FALSE,TRUE
+P37,summarise,bangla,"এক ছোট বাক্যে সারসংক্ষেপ করো: ""রক্ষণাবেক্ষণের জন্য গ্রন্থাগারটি শুক্রবার বন্ধ থাকবে এবং শনিবার সকাল নয়টায় আবার খুলবে।""",গ্রন্থাগার শুক্রবার বন্ধ থাকবে এবং শনিবার সকাল 9টায় খুলবে জন্য।,150,69,0.0000639,29.4963,stop,FALSE,TRUE
+P38,summarise,english,"Summarise in one short sentence: ""Farmers in the northern region expect a good harvest this year because the rains came on time.""",Northern farmers anticipate a successful harvest due to timely rainfall.,51,12,0.00001485,12.3172,stop,FALSE,TRUE
+P38,summarise,bangla,"এক ছোট বাক্যে সারসংক্ষেপ করো: ""এ বছর বর্ষা সময়মতো এসেছে বলে উত্তরাঞ্চলের কৃষকেরা ভালো ফসলের আশা করছেন।""",কৃষকরা এ বছর ভালো ফসলের আশা করছেন।,133,37,0.00004215,17.8777,stop,FALSE,TRUE
+P39,summarise,english,"Summarise in one short sentence: ""The company introduced a new mobile app that lets customers pay bills, check balances, and contact support in one place.""","The company launched a mobile app for bill payment, balance checking, and customer support.",55,18,0.00001905,13.1808,stop,FALSE,TRUE
+P39,summarise,bangla,"এক ছোট বাক্যে সারসংক্ষেপ করো: ""কোম্পানিটি একটি নতুন মোবাইল অ্যাপ চালু করেছে, যেখানে গ্রাহকেরা একই জায়গা থেকে বিল পরিশোধ, ব্যালেন্স যাচাই এবং সহায়তা কেন্দ্রের সঙ্গে যোগাযোগ করতে পারেন।""","কোম্পানি নতুন মোবাইল অ্যাপ চালু করেছে, যেখানে গ্রাহক বিল পরিশোধ এবং সহায়তা কেন্দ্রের সাথে যোগাযোগ করতে পারেন।",221,120,0.00010515,46.2264,stop,FALSE,TRUE
+P40,summarise,english,"Summarise in one short sentence: ""Because of heavy traffic, the bus arrived forty minutes late, and many passengers missed their connecting trains.""","Late by 40 minutes due to traffic, the bus caused delays for many connecting train passengers.",52,21,0.0000204,14.4992,stop,FALSE,TRUE
+P40,summarise,bangla,"এক ছোট বাক্যে সারসংক্ষেপ করো: ""তীব্র যানজটের কারণে বাসটি চল্লিশ মিনিট দেরিতে পৌঁছেছে এবং অনেক যাত্রীর সংযোগকারী ট্রেন ছুটে গেছে।""",যানজট বাসটি 60 মিনিট দিনায় পৌঁছে যায় এবং অনেক ট্রেন ছুটে গেছে।,163,71,0.00006705,23.8482,stop,FALSE,TRUE
+P41,summarise,english,"Summarise in one short sentence: ""The teacher praised the students for finishing the project early and encouraged them to help their classmates.""",The teacher acknowledged early project completion and promoted peer assistance.,50,12,0.0000147,11.1895,stop,FALSE,TRUE
+P41,summarise,bangla,"এক ছোট বাক্যে সারসংক্ষেপ করো: ""প্রকল্পটি আগেভাগে শেষ করার জন্য শিক্ষক শিক্ষার্থীদের প্রশংসা করেছেন এবং সহপাঠীদের সাহায্য করতে উৎসাহ দিয়েছেন।""",শিক্ষক শিক্ষার্থীদের প্রশংসা করে এবং সহপাঠীদের সাহায্য করতে উৎসাহী হয়েছেন প্রকল্পের শেষে।,172,97,0.000084,27.5538,stop,FALSE,TRUE
+P42,summarise,english,"Summarise in one short sentence: ""Scientists found that drinking enough water during the day helps people concentrate better at work.""",Drinking sufficient water daily improves concentration at work.,48,11,0.0000138,10.0948,stop,FALSE,TRUE
+P42,summarise,bangla,"এক ছোট বাক্যে সারসংক্ষেপ করো: ""বিজ্ঞানীরা দেখেছেন, দিনের বেলা পর্যাপ্ত পানি পান করলে কাজের সময় মানুষ ভালোভাবে মনোযোগ দিতে পারে।""","বিজ্ঞানীরা বলেন যে, দিনের বেলা পর্যন্ত পানি পান করলে মানুষ কাজের সময় ভালোভাবে মনোযোগ দেয়।",160,99,0.0000834,25.7585,stop,FALSE,TRUE
+P43,long,english,"I am planning a three-day trip to Cox's Bazar with my family. We want to enjoy the beach, try local seafood, and visit a few quiet places away from the crowd. Can you suggest a simple plan for each day?","Certainly! Here's a simple three-day plan for your trip to Cox's Bazar, Bangladesh:
+
+**Day 1: Beach and Seafood Exploration**
+- Morning: Arrive at Cox's Bazar and check into your hotel.
+- Afternoon: Head to the main beach, such as Cox's Bazar Beach, for a day of sunbathing and swimming.
+- Evening: Visit a local seafood restaurant for a taste of fresh fish and other seafood dishes.
+- Night: Enjoy a quiet dinner at a local restaurant away from the beach area.
+
+**Day 2: Quiet Beach and Cultural Visit**
+- Morning: Head to a quieter beach, such as Teknaf Beach, for a more peaceful day.
+- Afternoon: Visit a local village or cultural site to learn about the indigenous",71,160,0.00010665,43.2778,length,TRUE,TRUE
+P43,long,bangla,"আমি পরিবারের সাথে কক্সবাজারে তিন দিনের একটি ভ্রমণের পরিকল্পনা করছি। আমরা সমুদ্রসৈকত উপভোগ করতে, স্থানীয় সামুদ্রিক খাবার চেখে দেখতে এবং ভিড় থেকে দূরে কয়েকটি শান্ত জায়গা ঘুরে দেখতে চাই। প্রতিদিনের জন্য একটি সহজ পরিকল্পনা কি তুমি প্রস্তাব করতে পারবে?","প্রতিদিনের পরিকল্পনা:
+
+1. সৈকত উপভোগ: একটি সৈকত স্থан পরিচালনা করে সমুদ্রসৈকত উপভোগ করতে যাত্রা শুরু করুন।
+
+2. স্থানীয় সামুদ্রিক খাবার: একটি স্থানীয়",287,160,0.00013905,54.92,length,TRUE,TRUE
+P44,long,english,"My laptop has become very slow in the last few weeks. It takes several minutes to start and the fan runs loudly all the time. I have not installed any new programs recently. What could be the reasons, and what should I check first?","The slow performance and loud fan noise in your laptop could be due to several underlying issues. Here are the reasons and steps to check first:
+
+### Reasons:
+1. **Storage Issues**: The hard drive or SSD might be running out of space, causing the system to slow down.
+2. **Malware or Virus**: Even if you haven't installed new programs, malware or viruses can still slow down your laptop.
+3. **Corrupted System Files**: Over time, system files can become corrupted, leading to performance issues.
+4. **Overheating**: The fan running loudly could indicate that the laptop is overheating, possibly due to dust accumulation or a failing cooling system.
+5. **Software Conflicts**: Sometimes, software conflicts or outdated drivers can cause performance issues.
+
+### Steps to Check First",72,160,0.0001068,35.7568,length,TRUE,TRUE
+P44,long,bangla,"গত কয়েক সপ্তাহে আমার ল্যাপটপ খুব ধীর হয়ে গেছে। চালু হতে কয়েক মিনিট লাগে এবং ফ্যান সারাক্ষণ জোরে চলে। আমি সম্প্রতি কোনো নতুন প্রোগ্রাম ইনস্টল করিনি। এর সম্ভাব্য কারণ কী হতে পারে, আর আগে কী পরীক্ষা করা উচিত?","গত কয়েক সপ্তাহে ল্যাপটপ খুব ধীর হয়েছে এবং চালু হতে প্রায় এক মিনিট লাগছে এমন বিপদ হতে পারে:
+
+1. প্রোগ্রাম ইনস্টল: আপনি কোনো নতুন প্রোগ্রাম ইনস্টল কর",246,160,0.0001329,45.549,length,TRUE,TRUE
+P45,long,english,"A small bakery wants to attract more customers. It sells fresh bread, cakes, and biscuits every morning. The owner has a very small budget for advertising. Suggest three low-cost ideas.","1. Local Flyers: Distribute flyers in the bakery's local area, offering discounts or special promotions.
+2. Social Media: Create and share engaging content on social media platforms like Facebook and Instagram, focusing on the bakery's unique selling points.
+3. Word of Mouth: Encourage satisfied customers to leave positive reviews and recommendations on local review sites and social media.",61,74,0.00005355,18.8,stop,FALSE,TRUE
+P45,long,bangla,"একটি ছোট বেকারি আরও গ্রাহক আকৃষ্ট করতে চায়। তারা প্রতিদিন সকালে তাজা পাউরুটি, কেক ও বিস্কুট বিক্রি করে। মালিকের বিজ্ঞাপনের বাজেট খুবই কম। কম খরচের তিনটি ধারণা দাও।","1. বিজ্ঞাপনের বাজেট নিয়ে বিশ্বাস্য করা এবং স্পষ্ট করা।
+2. সামগ্রিক বিজ্ঞাপ্তি বা ফেসবুক পেইন্টার ব্যবহার করে প্রচার করা।
+3. সামগ্রিক বিজ্ঞাপন বা বিক্রি প্রত",193,160,0.00012495,34.7494,length,TRUE,TRUE
+P46,long,english,"Our class is organising a farewell party for our teacher who is retiring next month. We need to decide on a venue, a menu, and a small gift. Please write a short checklist that we can follow.","Sure, here's a concise checklist for organizing your farewell party:
+
+1. Venue:
+   - Research and book a suitable venue
+   - Confirm date, time, and capacity
+   - Arrange for catering and entertainment if needed
+
+2. Menu:
+   - Decide on the type of cuisine (e.g., Italian, Indian, etc.)
+   - Plan for appetizers, main courses, and desserts
+   - Include vegetarian and gluten-free options if necessary
+
+3. Gift:
+   - Choose a thoughtful and meaningful gift (e.g., personalized photo album, custom-made mug)
+   - Purchase or order the gift in advance
+   - Ensure it arrives before the party
+
+4. Miscellaneous:
+   - Send out invitations
+   - Coordinate with the venue for setup and clean-up
+   - Confirm",65,160,0.00010575,31.9781,length,TRUE,TRUE
+P46,long,bangla,"আমাদের শ্রেণি আগামী মাসে অবসরে যাচ্ছেন এমন একজন শিক্ষকের জন্য বিদায় অনুষ্ঠানের আয়োজন করছে। আমাদের একটি স্থান, একটি খাবারের তালিকা এবং একটি ছোট উপহার ঠিক করতে হবে। অনুগ্রহ করে একটি সংক্ষিপ্ত চেকলিস্ট লেখো যা আমরা অনুসরণ করতে পারি।","চেকলিস স্ট্যাম্প:
+
+1. স্থান: একটি বিশাল বাড়ি বা ক্যালেন্ডারে একটি বড় চেকলিস চিত্র রেখে স্থান দিন।
+
+2. খাবারের তালিকা: একটি বড় বোর্ডে একটি তালিকা লেখো যেখান",265,160,0.00013575,41.809,length,TRUE,TRUE
+P47,long,english,"Rainwater harvesting collects and stores rain for later use. It can reduce the pressure on groundwater, especially in cities where the water table is falling. Explain how a simple household system works and what its main benefits are.","A simple household rainwater harvesting system typically consists of a roof collection area, gutters, downspouts, a storage tank, and a filtration system. Here's a breakdown of how it works and its main benefits:
+
+### How It Works:
+1. **Roof Collection Area**: Rainwater is collected from the roof of the house. The roof acts as a catchment surface.
+2. **Gutters and Downspouts**: These transport the collected water from the roof to the storage tank.
+3. **Storage Tank**: The water is stored in a tank, usually underground to protect it from contamination and evaporation.
+4. **Filtration System**: Before use, the water may be filtered to remove debris and contaminants.
+
+### Main Benefits:
+1. **Reduces Groundwater Stress**:",66,160,0.0001059,31.5003,length,TRUE,TRUE
+P47,long,bangla,"বৃষ্টির পানি সংরক্ষণ হলো বৃষ্টির পানি সংগ্রহ করে পরে ব্যবহারের জন্য জমিয়ে রাখা। এটি ভূগর্ভস্থ পানির ওপর চাপ কমাতে পারে, বিশেষ করে যেসব শহরে পানির স্তর নেমে যাচ্ছে। একটি সাধারণ গৃহস্থালি ব্যবস্থা কীভাবে কাজ করে এবং এর প্রধান সুবিধাগুলো কী, তা ব্যাখ্যা করো।",সাধারণ গৃহস্থালি ব্যবস্থার কাজ এটি হলো বৃষ্টির পানি সংগ্রহ করে এবং সংরক্ষণ করা। এটি শহরের ভূগর্ভস্থ পানির স্তর নেমে যাওয়ার প্রতি চাপ কমাতে ব্যবহৃত হয,294,160,0.0001401,49.5588,length,TRUE,TRUE
+P48,long,english,"I started learning to cook this month. So far I can make rice, simple lentil soup, and fried eggs. I want to learn five more easy dishes that are healthy. Which dishes should I learn next, and why?","For someone looking to expand their culinary skills with healthy dishes, here are five easy recipes to learn next:
+
+1. **Quinoa Salad**: Quinoa is a great source of protein and fiber. Mix cooked quinoa with diced cucumbers, cherry tomatoes, and a simple vinaigrette dressing. This dish is refreshing and nutritious.
+
+2. **Vegetable Stir-Fry**: Stir-fry a mix of vegetables like bell peppers, broccoli, and carrots with a bit of soy sauce and sesame oil. This dish is quick to prepare and packed with vitamins and minerals.
+
+3. **Pasta with Tomato Sauce**: Cook whole wheat pasta and top it with a simple tomato sauce made from fresh tomatoes, garlic, and basil. This dish is hearty and provides a good balance of carbohydrates and protein",69,160,0.00010635,35.1189,length,TRUE,TRUE
+P48,long,bangla,"আমি এই মাসে রান্না শেখা শুরু করেছি। এখন পর্যন্ত আমি ভাত, সহজ ডাল এবং ডিমভাজি রাঁধতে পারি। আমি আরও পাঁচটি সহজ ও স্বাস্থ্যকর পদ শিখতে চাই। এরপর কোন পদগুলো শেখা উচিত, আর কেন?","আপনি শিখতে চান সহজ ও স্বাস্থ্যকর পদগুলোর মধ্যে হাতে হাতে শিখতে পারেন:
+
+1. গোলাপ পাকা (মাখা)
+2. কাজো পাকা
+3. কাজো পাকা এবং সাজানো পাকা গোলাপ পাকা
+4. কাজো প",200,160,0.000126,36.8464,length,TRUE,TRUE
+P49,long,english,Please read this short note. The meeting scheduled for Monday has been moved to Wednesday at 3 p.m. because the manager is travelling. Everyone should send their progress reports by Tuesday evening. Write a polite reminder email based on this note.,"Subject: Reminder: Meeting Rescheduled and Progress Report Deadline
+
+Dear Team,
+
+I hope this email finds you well.
+
+I wanted to remind you that the previously scheduled meeting on Monday has been rescheduled to Wednesday at 3 p.m. due to the manager's travel plans. Please ensure you are available for this new time slot.
+
+Additionally, please submit your progress reports by Tuesday evening as per the original instructions.
+
+Thank you for your attention to these changes.
+
+Best regards,
+[Your Name]",71,99,0.00007005,22.7134,stop,FALSE,TRUE
+P49,long,bangla,অনুগ্রহ করে এই ছোট নোটটি পড়ো। সোমবারের নির্ধারিত সভাটি ব্যবস্থাপকের ভ্রমণের কারণে বুধবার বিকেল 3টায় সরানো হয়েছে। সবাইকে মঙ্গলবার সন্ধ্যার মধ্যে নিজেদের অগ্রগতির প্রতিবেদন পাঠাতে হবে। এই নোটের ভিত্তিতে একটি ভদ্র অনুস্মারক ইমেল লেখো।,"নিম্নলিখিত ভদ্র অনুস্মারক ইমেলটি তথ্যগুলো অনুযায়ী তৈয়ার করা হয়েছে:
+
+---
+
+মঙ্গলবার সন্ধ্যার মধ্যে
+
+সভার অগ্রগতি প্রদানের জন্য
+
+সোমবারের নির্ধারিত সভাটি
+
+বুধ",270,160,0.0001365,40.9007,length,TRUE,TRUE
+P50,long,english,"Many students feel nervous before exams. Some of them cannot sleep well, and others forget what they studied. Give a few practical tips to stay calm and prepare better.","Here are some practical tips to help students stay calm and prepare better for exams:
+
+1. **Structured Study Schedule**: Create a realistic study plan with regular breaks. This helps maintain focus and reduces stress.
+
+2. **Healthy Lifestyle**: Maintain a balanced diet, exercise regularly, and ensure adequate sleep. Physical health significantly impacts mental health.
+
+3. **Mindfulness and Relaxation Techniques**: Practice deep breathing, meditation, or yoga to manage anxiety and improve concentration.
+
+4. **Active Review**: Regularly review notes and materials, not just cramming. This reinforces memory and understanding.
+
+5. **Seek Support**: Discuss concerns with peers, teachers, or counselors. Sometimes, just talking about worries can alleviate them.
+
+6. **Positive Affirmations**: Use positive self-talk to boost confidence and reduce negative thoughts",56,160,0.0001044,29.6009,length,TRUE,TRUE
+P50,long,bangla,"অনেক শিক্ষার্থী পরীক্ষার আগে নার্ভাস বোধ করে। তাদের কেউ কেউ ভালোভাবে ঘুমাতে পারে না, আবার কেউ কেউ যা পড়েছে তা ভুলে যায়। শান্ত থাকা ও ভালো প্রস্তুতি নেওয়ার জন্য কয়েকটি বাস্তব পরামর্শ দাও।","1. পরীক্ষার আগে শান্ত থাকুন এবং সমস্ত টেকনিক্যাল টিউনিং করুন।
+2. পরীক্ষার পর প্রতিভার প্রতিষ্ঠান করুন এবং সম্পর্কিত বিষয়গুলি ভুলে যাওয়া সম্ভব না কর",225,160,0.00012975,36.376,length,TRUE,TRUE

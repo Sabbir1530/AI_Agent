@@ -1,0 +1,12 @@
+{
+  "model": "qwen2.5:3b",
+  "system_prompt": "Answer clearly and accurately. Be concise but complete.",
+  "settings": {
+    "temperature": 0,
+    "seed": 42,
+    "num_predict": 160,
+    "keep_alive": 0
+  },
+  "baseline_input_tokens": 24,
+  "baseline_note": "input tokens for template + system prompt + a 1-character user prompt"
+}

@@ -1,0 +1,46 @@
+id,category,english_prompt,english_output,bangla_prompt,bangla_output,bangla_as_correct_and_useful (yes/no/partly),your_note
+P01,question,What is the capital of Bangladesh?,The capital of Bangladesh is Dhaka.,বাংলাদেশের রাজধানী কী?,বাংলাদেশের রাজধানী হল কোরিয়া।,,
+P06,question,Which planet is known as the Red Planet?,The Red Planet is known as Mars.,কোন গ্রহটি লাল গ্রহ নামে পরিচিত?,লাল গ্রহ নামে পরিচিত গ্রহ হল ভুবনেশ্বর (Mercury).,,
+P11,instruction,Write a short greeting for a new colleague.,"Hello [Colleague's Name], it's great to have you on board! I'm looking forward to working with you.",একজন নতুন সহকর্মীর জন্য একটি ছোট শুভেচ্ছা বার্তা লেখো।,"নতুন সহকারীর জন্য ছোট শুভেচ্ছা বার্তা:
+
+প্রিয়omat নতুন সহকারীর নামের জন্য আপনার সাহায্য করতে প্রাথমিক দিনটি শুভ হবে। আমরা আপনার সাথে যৌথ হওয়ার জন্য আপনার",,
+P16,instruction,Name two ways to save electricity at home.,"1. Use energy-efficient light bulbs and appliances.
+2. Turn off lights and unplug electronics when not in use.",বাড়িতে বিদ্যুৎ সাশ্রয়ের দুটি উপায় বলো।,"বাড়িতে বিদ্যুৎ সাশ্রয়ের দুটি উপায় হল:
+
+1. বিদ্যুৎ সাশ্রয়ের ব্যবস্থা: বিদ্যুৎ সাশ্রয়ের ব্যবস্থা করা হলে বিদ্যুৎ সাশ্রয়ের সমস্যা সমাধান করা যায়।",,
+P21,explanation,What is inflation? Explain simply.,"Inflation is a general increase in prices and fall in the purchasing value of money. When inflation is high, each currency unit buys fewer goods & services. For example, if inflation is 5%, a dollar won't buy as much next year as it does today.",মুদ্রাস্ফীতি কী? সহজ ভাষায় ব্যাখ্যা করো।,"মুদ্রাস্ফীতি হলো বাণিজ্যিক বিতরণের মুদ্রা বাড়ার ফলে বৃদ্ধি হওয়া বা কমে যাওয়া দায়ী। সাধারণভাবে, এটি বাণিজ্যিক বিতরণের মুদ্রা বাড়ার ফলে ব্যবসায়",,
+P26,explanation,Explain the difference between weather and climate.,"Weather refers to the short-term atmospheric conditions at a specific location, including temperature, humidity, wind, and precipitation over a relatively short period, such as a few hours to a week.
+
+Climate, on the other hand, describes the long-term average weather patterns of a region, typically spanning over many years. It encompasses statistics like average temperature, precipitation, and wind patterns, and can be characterized by terms like dry or wet, cold or warm, and stormy or calm.",আবহাওয়া ও জলবায়ুর মধ্যে পার্থক্য ব্যাখ্যা করো।,"আবহাওয়া ও জলবায়ুর মধ্যে পার্থক্য হল:
+
+1. আবহাওয়া: এটি একটি পরিবর্তনশীল পরিসংখ্যান। আবহাওয়া প্রকোপ এবং প্রকোপের পরিবর্তন হতে পারে।
+
+2. জলবায়ু: এটি",,
+P31,arithmetic,Subtract 289 from 500.,The result of subtracting 289 from 500 is 211.,500 থেকে 289 বিয়োগ করো।,500 - 289 = 211,,
+P36,summarise,"Summarise in one short sentence: ""Regular exercise improves heart health, helps control weight, and also lifts a person's mood.""","Regular exercise benefits heart health, aids weight management, and boosts mood.","এক ছোট বাক্যে সারসংক্ষেপ করো: ""নিয়মিত ব্যায়াম হৃদ্‌যন্ত্রের স্বাস্থ্য উন্নত করে, ওজন নিয়ন্ত্রণে সাহায্য করে এবং মানুষের মনও ভালো রাখে।""","ব্যায়াম হৃদয়ন্ত্রের স্বাস্থ্য উন্নতি করে, ওজন নিয়ন্ত্রণে সাহায্য করে এবং মন ভালো রাখে।",,
+P41,summarise,"Summarise in one short sentence: ""The teacher praised the students for finishing the project early and encouraged them to help their classmates.""",The teacher acknowledged early project completion and promoted peer assistance.,"এক ছোট বাক্যে সারসংক্ষেপ করো: ""প্রকল্পটি আগেভাগে শেষ করার জন্য শিক্ষক শিক্ষার্থীদের প্রশংসা করেছেন এবং সহপাঠীদের সাহায্য করতে উৎসাহ দিয়েছেন।""",শিক্ষক শিক্ষার্থীদের প্রশংসা করে এবং সহপাঠীদের সাহায্য করতে উৎসাহী হয়েছেন প্রকল্পের শেষে।,,
+P46,long,"Our class is organising a farewell party for our teacher who is retiring next month. We need to decide on a venue, a menu, and a small gift. Please write a short checklist that we can follow.","Sure, here's a concise checklist for organizing your farewell party:
+
+1. Venue:
+   - Research and book a suitable venue
+   - Confirm date, time, and capacity
+   - Arrange for catering and entertainment if needed
+
+2. Menu:
+   - Decide on the type of cuisine (e.g., Italian, Indian, etc.)
+   - Plan for appetizers, main courses, and desserts
+   - Include vegetarian and gluten-free options if necessary
+
+3. Gift:
+   - Choose a thoughtful and meaningful gift (e.g., personalized photo album, custom-made mug)
+   - Purchase or order the gift in advance
+   - Ensure it arrives before the party
+
+4. Miscellaneous:
+   - Send out invitations
+   - Coordinate with the venue for setup and clean-up
+   - Confirm","আমাদের শ্রেণি আগামী মাসে অবসরে যাচ্ছেন এমন একজন শিক্ষকের জন্য বিদায় অনুষ্ঠানের আয়োজন করছে। আমাদের একটি স্থান, একটি খাবারের তালিকা এবং একটি ছোট উপহার ঠিক করতে হবে। অনুগ্রহ করে একটি সংক্ষিপ্ত চেকলিস্ট লেখো যা আমরা অনুসরণ করতে পারি।","চেকলিস স্ট্যাম্প:
+
+1. স্থান: একটি বিশাল বাড়ি বা ক্যালেন্ডারে একটি বড় চেকলিস চিত্র রেখে স্থান দিন।
+
+2. খাবারের তালিকা: একটি বড় বোর্ডে একটি তালিকা লেখো যেখান",,
